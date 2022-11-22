@@ -16,5 +16,5 @@ def main(a):
         return True
     if a<d:
         return False
-print(main(57)) 
+print(main(12)) 
     
