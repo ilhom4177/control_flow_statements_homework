@@ -13,26 +13,15 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    musbat = 0
-    if a>0:
-        musbat+=1
+    if s > 1:
+        d = 'there are a lot of positive numbers'
 
-    if b>0:
-        musbat+=1
+    if s == 0 and s == 1:
+    if s == 0:
+        d = 'there are a lot of negative numbers'   
 
-    if c>0:
-        musbat+=1
 
-    manfiy = 0
-    if a<0:
-        manfiy+=1
-    if b<0:
-        manfiy+=1
-    if c<0:
-        manfiy+=1
-    if musbat > manfiy:
-        return "there are a lot of positive numbers"
-    if manfiy > musbat:
-        return "there are a lot of negative number"
-    return z
-print(main(3,3,-6))
+    if s == 1:
+        d = 'there are a lot of negative numbers'
+
+    return d
