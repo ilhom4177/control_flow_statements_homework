@@ -13,15 +13,21 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    if s > 1:
-        d = 'there are a lot of positive numbers'
-
-    if s == 0 and s == 1:
-    if s == 0:
-        d = 'there are a lot of negative numbers'   
-
-
-    if s == 1:
-        d = 'there are a lot of negative numbers'
-
-    return d
+    positive = 0
+    negative = 0
+  
+    if a > 0:
+        positive +=1
+    else:
+        negative +=1
+    if b > 0:
+        positive +=1
+    else:
+        negative +=1
+    if c > 0:
+        positive +=1
+    else:
+        negative +=1
+    return "there are a lot of positive numbers"
+    return "there are a lot of negative numbers"
+print(main(1,2,4))
